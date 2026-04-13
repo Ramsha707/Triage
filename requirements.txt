@@ -1,0 +1,32 @@
+# FastAPI Framework
+fastapi>=0.109.0                                                                          
+uvicorn[standard]>=0.27.0                                                               
+python-multipart>=0.0.6
+
+# Database
+
+sqlalchemy>=2.0.25                                                                 
+alembic>=1.13.1                                                                    
+aiosqlite>=0.19.0
+
+# Forensics (optional - mock processing used if not available)
+# pytsk3>=20231007  # Requires C++ build tools
+
+# AI/ML (optional - rule-based fallback if not available)
+# scikit-learn>=1.4.0  # Requires C++ build tools
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Utilities
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-dotenv>=1.0.0
+aiofiles>=23.2.1
+python-magic>=0.4.27
+
+# Report Generation
+reportlab>=4.0.9
+fpdf2>=2.7.9
+
+# HTTP Client
+httpx>=0.26.0
